@@ -1,0 +1,51 @@
+<acceptance-test-run title="(/products-and-docs/widgets/countdown/) TECHNICAL TAB - Check RESET button functionality" name="(/products-and-docs/widgets/countdown/) TECHNICAL TAB - Check RESET button functionality" steps="10" successful="10" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="5656" timestamp="2017-02-16T12:01:45.873Z" session-id="3d4e4df0-773c-469c-9884-149b88582b38">
+  <user-story id="CountdownWidget" name="Countdown widget" path="stories/site/widgets/CountdownWidget.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Site/Widgets" type="feature"/>
+    <tag name="Countdown widget" type="story"/>
+    <tag name="Widgets/Countdown widget" type="story"/>
+  </tags>
+  <test-group name="Given open Countdown Widget page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="3261">
+      <description>Open page</description>
+    </test-step>
+  </test-group>
+  <test-group name="And store ApiKey and EventId on Countdown Widget page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="64">
+      <description>Store current api key</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="33">
+      <description>Store current event id</description>
+    </test-step>
+  </test-group>
+  <test-group name="And change value for ApiKey and EventId on Countdown Widget page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="215">
+      <description>Set api key: anyApiKey</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="187">
+      <description>Set event id: anyEventId</description>
+    </test-step>
+  </test-group>
+  <test-group name="When submit form" result="SUCCESS">
+    <test-step result="SUCCESS" duration="60">
+      <description>Submit form</description>
+    </test-step>
+  </test-group>
+  <test-group name="And click reset button" result="SUCCESS">
+    <test-step result="SUCCESS" duration="1736">
+      <description>Reset form</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then the ApiKey and EventId fields have stored values" result="SUCCESS">
+    <test-step result="SUCCESS" duration="29">
+      <description>Check that api key field contains stored value</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="30">
+      <description>Check that event id field contains stored value</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="18">
+    <description>Clear cookies and local storage</description>
+  </test-step>
+</acceptance-test-run>

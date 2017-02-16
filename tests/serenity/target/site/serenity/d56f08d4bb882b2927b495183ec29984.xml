@@ -1,0 +1,51 @@
+<acceptance-test-run title="(/products-and-docs/widgets/countdown/) TECHNICAL TAB - Get new EventId" name="(/products-and-docs/widgets/countdown/) TECHNICAL TAB - Get new EventId" steps="8" successful="3" failures="0" errors="1" skipped="4" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="16803" timestamp="2017-02-16T12:02:00.157Z" session-id="3d4e4df0-773c-469c-9884-149b88582b38">
+  <user-story id="CountdownWidget" name="Countdown widget" path="stories/site/widgets/CountdownWidget.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Site/Widgets" type="feature"/>
+    <tag name="Countdown widget" type="story"/>
+    <tag name="Widgets/Countdown widget" type="story"/>
+  </tags>
+  <test-group name="Given open Countdown Widget page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="3227">
+      <description>Open page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When User is logged to site (Countdown Widget)" result="ERROR">
+    <test-step result="SUCCESS" duration="149">
+      <description>Click log in</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="2879">
+      <description>Log in to account</description>
+    </test-step>
+    <test-step result="ERROR" duration="10518">
+      <screenshots>
+        <screenshot image="36966f4c6047582d562fed3d840599e5.png" source="pagesource8773134848194873720.html.txt"/>
+      </screenshots>
+      <description>Get API key of user</description>
+      <error>org.openqa.selenium.NoSuchElementException: Timed out after 5 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;testing-docker-fa3eccb0-e91e-4528-ae8f-78df9e34e364&apos;, ip: &apos;172.17.0.8&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.8.12-040812-generic&apos;, java.version: &apos;1.8.0_31&apos;
+Driver info: driver.version: unknown</error>
+      <exception>org.openqa.selenium.NoSuchElementException:Timed out after 5 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;testing-docker-fa3eccb0-e91e-4528-ae8f-78df9e34e364&apos;, ip: &apos;172.17.0.8&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.8.12-040812-generic&apos;, java.version: &apos;1.8.0_31&apos;
+Driver info: driver.version: unknown
+[bla.tm.steps.pantheon.UserAccountSteps.getAPIKeyOfUser(UserAccountSteps.java:14), bla.tm.definitions.site.widgets.CountdownWidgetDefinition.openLogInPageAndLogIn(CountdownWidgetDefinition.java:92)]</exception>
+    </test-step>
+  </test-group>
+  <test-step result="SKIPPED" duration="10">
+    <description>And get eventId by keyword {ADELE}</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>And set first eventId from list</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Then the event poster contains {ADELE}</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Clear cookies and local storage</description>
+  </test-step>
+</acceptance-test-run>

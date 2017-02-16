@@ -1,0 +1,27 @@
+<acceptance-test-run title="(/products-and-docs/widgets/event-discovery/) TECHNICAL TAB - Check links" name="(/products-and-docs/widgets/event-discovery/) TECHNICAL TAB - Check links" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="4092" timestamp="2017-02-16T12:05:15.715Z" session-id="72adb896-5964-4c1f-bfe6-269d3d141da7">
+  <user-story id="EventDiscoveryWidget" name="Event discovery widget" path="stories/site/widgets/EventDiscoveryWidget.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Site/Widgets" type="feature"/>
+    <tag name="Event discovery widget" type="story"/>
+    <tag name="Widgets/Event discovery widget" type="story"/>
+  </tags>
+  <test-group name="Given open Event Discovery Widget page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="2939">
+      <description>Open page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When I click on the &apos;Get your own&apos; link to get api key" result="SUCCESS">
+    <test-step result="SUCCESS" duration="241">
+      <description>Get your own api key link</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then The page is opened with url {https://developer-acct.ticketmaster.com}" result="SUCCESS">
+    <test-step result="SUCCESS" duration="869">
+      <description>Check that page is opened with url: https://developer-acct.ticketmaster.com</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="25">
+    <description>Clear cookies and local storage</description>
+  </test-step>
+</acceptance-test-run>

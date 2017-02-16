@@ -1,0 +1,25 @@
+<acceptance-test-run title="(/products-and-docs/tutorials/events-search/) Verification for general page&apos;s elements" name="(/products-and-docs/tutorials/events-search/) Verification for general page&apos;s elements" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="14593" timestamp="2017-02-16T11:53:27.057Z" session-id="29fc585b-b96c-46be-87f7-76fc99301239">
+  <user-story id="PD_Tutorials_EventSearch" name="Pd  tutorials  event search" path="stories/site/products_and_docs/PD_Tutorials_EventSearch.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Site/Products and docs" type="feature"/>
+    <tag name="Pd  tutorials  event search" type="story"/>
+    <tag name="Products and docs/Pd tutorials event search" type="story"/>
+  </tags>
+  <test-group name="Given open Tutorials EventSearch page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="4294">
+      <description>Open page</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then check general page elements for Tutorials EventSearch Page, where DISQUS = {false} and LeftMenu = {true}" result="SUCCESS">
+    <test-step result="SUCCESS" duration="65">
+      <description>Check if title is correct</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="10195">
+      <description>Check general page elements: false, true</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="21">
+    <description>Clear cookies and local storage</description>
+  </test-step>
+</acceptance-test-run>

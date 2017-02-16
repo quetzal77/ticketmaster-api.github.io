@@ -1,0 +1,25 @@
+<acceptance-test-run title="(/products-and-docs/widgets/countdown/) TECHNICAL TAB - Check that required fields are not empty" name="(/products-and-docs/widgets/countdown/) TECHNICAL TAB - Check that required fields are not empty" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="3214" timestamp="2017-02-16T12:01:31.340Z" session-id="3d4e4df0-773c-469c-9884-149b88582b38">
+  <user-story id="CountdownWidget" name="Countdown widget" path="stories/site/widgets/CountdownWidget.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Site/Widgets" type="feature"/>
+    <tag name="Countdown widget" type="story"/>
+    <tag name="Widgets/Countdown widget" type="story"/>
+  </tags>
+  <test-group name="Given open Countdown Widget page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="2897">
+      <description>Open page</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then the required fields are not empty on the Countdown Widget page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="128">
+      <description>Api key field is not empty</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="63">
+      <description>Check that event id field is not empty</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="111">
+    <description>Clear cookies and local storage</description>
+  </test-step>
+</acceptance-test-run>

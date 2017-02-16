@@ -1,0 +1,38 @@
+<acceptance-test-run title="(developer-acct.ticketmaster.com/user/register) Verification for general page&apos;s elements" name="(developer-acct.ticketmaster.com/user/register) Verification for general page&apos;s elements" steps="7" successful="7" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="26646" timestamp="2017-02-16T11:48:41.124Z" session-id="12081e02-7a7a-4ecf-ac59-1918c97ca764">
+  <user-story id="CreateNewAccount" name="Create new account" path="stories/site/pantheon/CreateNewAccount.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Site/Pantheon" type="feature"/>
+    <tag name="Create new account" type="story"/>
+    <tag name="Pantheon/Create new account" type="story"/>
+  </tags>
+  <test-group name="Given open Home page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="4096">
+      <description>Open page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When navigate to Pantheon LogIn page from Home page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="897">
+      <description>Click log in</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="180">
+      <description>Is page opened</description>
+    </test-step>
+  </test-group>
+  <test-group name="When navigate to Pantheon Create New Account page from LogIn page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="1057">
+      <description>Click create new account button</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then check general page elements for Pantheon Create New Account page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="63">
+      <description>Check if title is correct</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="20254">
+      <description>Check general page elements</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="42">
+    <description>Clear cookies and local storage</description>
+  </test-step>
+</acceptance-test-run>

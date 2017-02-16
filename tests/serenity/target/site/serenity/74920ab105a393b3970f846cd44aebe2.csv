@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Home","(/Home Page/) Verification for all the page links","SUCCESS","2017-02-16T11:49:38.406Z","0.0","37.82"
+"Home","(/Home Page/) Verification for general page elements","SUCCESS","2017-02-16T11:49:12.799Z","0.0","23.91"
+"Home","(/Home Page/) Verification for twitter's list of events","SUCCESS","2017-02-16T11:49:36.715Z","0.0","1.68"

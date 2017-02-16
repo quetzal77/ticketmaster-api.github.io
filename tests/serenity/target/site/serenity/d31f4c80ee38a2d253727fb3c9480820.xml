@@ -1,0 +1,30 @@
+<acceptance-test-run title="(/products-and-docs/widgets/) Verification for Direct Payment Button element" name="(/products-and-docs/widgets/) Verification for Direct Payment Button element" steps="5" successful="5" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="3276" timestamp="2017-02-16T11:51:52.320Z" session-id="62478898-47cd-404c-b315-8efed2eaae3f">
+  <user-story id="PD_Widgets" name="Pd  widgets" path="stories/site/products_and_docs/PD_Widgets.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Site/Products and docs" type="feature"/>
+    <tag name="Pd  widgets" type="story"/>
+    <tag name="Products and docs/Pd widgets" type="story"/>
+  </tags>
+  <test-group name="Given open Widgets page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="1222">
+      <description>Open page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When check visibility and click {DirectPaymentButton} element of Widgets page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="723">
+      <description>Validate and click element: DirectPaymentButton</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then check that new page opened from Direct Payment Button has has appropriate url" result="SUCCESS">
+    <test-step result="SUCCESS" duration="8">
+      <description>Switch to new tab</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1290">
+      <description>Check if page is opened: https://www.universe.com/directpayments, //h1, http://127.0.0.1:4000</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="17">
+    <description>Clear cookies and local storage</description>
+  </test-step>
+</acceptance-test-run>

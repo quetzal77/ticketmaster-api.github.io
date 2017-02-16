@@ -1,0 +1,45 @@
+<acceptance-test-run title="(developer-acct.ticketmaster.com/user/1554/apps) Verification for general page&apos;s elements [Login - Password field - enter valid password]" name="(developer-acct.ticketmaster.com/user/1554/apps) Verification for general page&apos;s elements [Login - Password field - enter valid password]" steps="6" successful="4" failures="1" skipped="1" ignored="0" pending="0" annotated-result="FAILURE" result="FAILURE" duration="6196" timestamp="2017-02-16T12:06:26.678Z" session-id="e4b55a45-c6d1-4f30-9c23-14647c5405ea">
+  <user-story id="UserAccount" name="User account" path="stories/site/pantheon/UserAccount.story"/>
+  <tags>
+    <tag name="Site" type="capability"/>
+    <tag name="Site/Pantheon" type="feature"/>
+    <tag name="Pantheon/User account" type="story"/>
+    <tag name="User account" type="story"/>
+  </tags>
+  <test-group name="Given open Home page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="2443">
+      <description>Open page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When navigate to Pantheon LogIn page from Home page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="787">
+      <description>Click log in</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="248">
+      <description>Is page opened</description>
+    </test-step>
+  </test-group>
+  <test-group name="When navigate to Pantheon User Account page from LogIn page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="2209">
+      <description>Log in to account</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then check general page elements for Pantheon User Account page" result="FAILURE">
+    <test-step result="FAILURE" duration="489">
+      <screenshots>
+        <screenshot image="36966f4c6047582d562fed3d840599e5.png" source="pagesource663433193305151971.html.txt"/>
+      </screenshots>
+      <description>Check if title is correct</description>
+      <error>org.junit.ComparisonFailure: expected:&lt;T[HESE ARE YOUR APPS!
+EXPLORE THEM]!&gt; but was:&lt;T[here are no applications here.
+Create something]!&gt;</error>
+      <exception>org.junit.ComparisonFailure:expected:&lt;T[HESE ARE YOUR APPS!
+EXPLORE THEM]!&gt; but was:&lt;T[here are no applications here.
+Create something]!&gt;
+[bla.tm.steps.pantheon.UserAccountSteps.checkIfTitleIsCorrect(UserAccountSteps.java:25), bla.tm.definitions.site.pantheon.UserAccountDefinition.checkGeneralPageElements(UserAccountDefinition.java:27)]</exception>
+    </test-step>
+  </test-group>
+  <test-step result="SKIPPED" duration="0">
+    <description>Clear cookies and local storage</description>
+  </test-step>
+</acceptance-test-run>
